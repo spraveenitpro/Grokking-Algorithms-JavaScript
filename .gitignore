@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+.replit
+package.json
+package-lock.json
+replit.nix
