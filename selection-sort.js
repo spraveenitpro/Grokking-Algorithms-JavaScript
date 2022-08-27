@@ -1,4 +1,4 @@
-let myList = [45,23,24, 45,67,1,22,58,90,103,34,29,19,8];
+let myList = [45, 23, 24, 45, 67, 1, 22, 58, 90, 103, 34, 29, 19, 8];
 
 function findSmallest(arr) {
   let smallest = arr[0];
@@ -25,5 +25,5 @@ function selectionSort(arr) {
 }
 
 
-//console.log(findSmallest(myList));
+console.log(findSmallest(myList));
 console.log(selectionSort(myList));
