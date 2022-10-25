@@ -1,16 +1,11 @@
-function recursion(m) {
-	//console.log(m);
-	//if (m <= 1) {
-	//	return
-	//} else {
-	//	recursion(m - 1);
-	//}
-	if (m == 1) {
-		return 1
-	} else {
-		return m * recursion(m - 1);
-	}
+let arr = [2,4,6];
 
+function recursion(arr) {
+	if (arr.length === 0) {
+		return 0;
+	} else {
+		return(arr[0] + recursion(arr.slice(1)));
+	}
 }
 
-console.log(recursion(9));
+console.log(recursion(arr));
